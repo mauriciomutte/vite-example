@@ -3,7 +3,8 @@
 
 ## ✨ Demo
 
-![Kapture 2021-07-07 at 20 14 03](https://user-images.githubusercontent.com/20569339/124839924-26752d00-df60-11eb-88a7-19eceb904993.gif)
+![image](https://user-images.githubusercontent.com/20569339/124925821-3aa64200-dfd3-11eb-8077-7c88c7ea3493.png)
+
 
 
 ## 🚀 Get started
