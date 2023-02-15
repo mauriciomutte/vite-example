@@ -1,0 +1,24 @@
+# Node.js
+# Build a general Node.js project with npm.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
+
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- task: NodeTool@0
+  inputs:
+    versionSpec: '16.x'
+  displayName: 'Use Node 16.x'
+
+- script: |
+    yarn install --frozen-lockfile
+  displayName: 'yarn install'
+
+- script: |
+    yarn build && yarn test:ci
+  displayName: 'Build & Test'
