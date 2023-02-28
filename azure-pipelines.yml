@@ -15,4 +15,4 @@ resources:
       ref: main
 
 extends:
-  template: azure-templates/frontend.yaml@templates
+  template: azure-pipelines/frontend.yaml@templates
