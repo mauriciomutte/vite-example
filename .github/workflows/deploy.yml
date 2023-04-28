@@ -26,4 +26,4 @@ jobs:
           aws-region: us-east-1
       - name: Sync AWS S3 bucket
         run: |
-          aws s3 sync ./dist s3://my-spa-bucket-justfortest
+          aws s3 sync ./dist s3://mutteground-spa-bucket
